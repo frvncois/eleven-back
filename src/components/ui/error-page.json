@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_error_pages",
+  "info": {
+    "displayName": "Error Page",
+    "icon": "exclamationMarkCircle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "string",
+      "required": true
+    },
+    "cta": {
+      "type": "string",
+      "required": true
+    },
+    "retry": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_ui_creditss",
+  "info": {
+    "displayName": "Credits",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "mixerTbc": {
+      "type": "string",
+      "required": true
+    },
+    "roleMix": {
+      "type": "string",
+      "required": true
+    },
+    "roleMixSound": {
+      "type": "string",
+      "required": true
+    },
+    "roleAgency": {
+      "type": "string",
+      "required": true
+    },
+    "roleProduction": {
+      "type": "string",
+      "required": true
+    },
+    "roleDirector": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

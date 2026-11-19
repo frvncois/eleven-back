@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_credits",
+  "info": {
+    "displayName": "Credit",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

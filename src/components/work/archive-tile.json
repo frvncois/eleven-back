@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_work_archive_tiles",
+  "info": {
+    "displayName": "Archive Tile",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "clientLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

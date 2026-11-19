@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "ui_labels",
+  "info": {
+    "singularName": "ui-label",
+    "pluralName": "ui-labels",
+    "displayName": "UI Labels",
+    "description": "Interface strings, cursor tags, aria labels and error copy."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "views": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.views",
+      "required": true
+    },
+    "dock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.dock",
+      "required": true
+    },
+    "gate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.gate-labels",
+      "required": true
+    },
+    "cursors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.cursors",
+      "required": true
+    },
+    "credits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.credits",
+      "required": true
+    },
+    "player": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.player",
+      "required": true
+    },
+    "regions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.regions",
+      "required": true
+    },
+    "notFound": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.not-found",
+      "required": true
+    },
+    "errorPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.error-page",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "party_modes",
+  "info": {
+    "singularName": "party-mode",
+    "pluralName": "party-modes",
+    "displayName": "Party Mode",
+    "description": "The easter egg. Item y is a keyword or a decimal, so it is a string."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "party.item"
+    },
+    "ariaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "closeCursor": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

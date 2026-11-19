@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_globes",
+  "info": {
+    "displayName": "Globe",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "alt": {
+      "type": "string"
+    },
+    "note": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.note",
+      "required": true
+    }
+  }
+}

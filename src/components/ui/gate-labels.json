@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_ui_gate_labelss",
+  "info": {
+    "displayName": "Gate Labels",
+    "icon": "lock"
+  },
+  "options": {},
+  "attributes": {
+    "soundAria": {
+      "type": "string",
+      "required": true
+    },
+    "skipAria": {
+      "type": "string",
+      "required": true
+    },
+    "onAria": {
+      "type": "string",
+      "required": true
+    },
+    "muteAria": {
+      "type": "string",
+      "required": true
+    },
+    "wordmarkAlt": {
+      "type": "string",
+      "required": true
+    },
+    "soundLabel": {
+      "type": "string",
+      "required": true
+    },
+    "onLabel": {
+      "type": "string",
+      "required": true
+    },
+    "offLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

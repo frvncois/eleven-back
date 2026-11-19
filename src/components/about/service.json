@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "microphone"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "note": {
+      "type": "text",
+      "required": true
+    },
+    "sounds": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.service-sound"
+    }
+  }
+}

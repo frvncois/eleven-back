@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contact_studios",
+  "info": {
+    "displayName": "Studio",
+    "icon": "house"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "line1": {
+      "type": "string",
+      "required": true
+    },
+    "line2": {
+      "type": "string",
+      "required": true
+    },
+    "map": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_notes",
+  "info": {
+    "displayName": "Margin note",
+    "icon": "message"
+  },
+  "options": {},
+  "attributes": {
+    "n": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "photoAlt": {
+      "type": "string"
+    }
+  }
+}

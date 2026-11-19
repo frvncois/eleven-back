@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_people_team_bars",
+  "info": {
+    "displayName": "Team Bar",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "bg": {
+      "type": "enumeration",
+      "enum": [
+        "aqua",
+        "red",
+        "pink",
+        "purple",
+        "yellow",
+        "royal-blue",
+        "bright-green",
+        "dark-green",
+        "light-grey",
+        "ink",
+        "bg",
+        "neutral-0",
+        "neutral-300",
+        "neutral-1000"
+      ],
+      "required": true
+    },
+    "ink": {
+      "type": "enumeration",
+      "enum": [
+        "aqua",
+        "red",
+        "pink",
+        "purple",
+        "yellow",
+        "royal-blue",
+        "bright-green",
+        "dark-green",
+        "light-grey",
+        "ink",
+        "bg",
+        "neutral-0",
+        "neutral-300",
+        "neutral-1000"
+      ],
+      "required": true
+    },
+    "roles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "people.role",
+      "required": true
+    }
+  }
+}

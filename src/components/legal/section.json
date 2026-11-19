@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_legal_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "sectionId": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.paragraph"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

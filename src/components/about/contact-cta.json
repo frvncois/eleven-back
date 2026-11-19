@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_contact_ctas",
+  "info": {
+    "displayName": "Contact Cta",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "line": {
+      "type": "string",
+      "required": true
+    },
+    "aside": {
+      "type": "string"
+    },
+    "cursor": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "archive_pages",
+  "info": {
+    "singularName": "archive-page",
+    "pluralName": "archive-pages",
+    "displayName": "Archive Page",
+    "description": "The scatter field; tile placement lives on each Project."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

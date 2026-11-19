@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_longform_films",
+  "info": {
+    "displayName": "Film",
+    "icon": "film"
+  },
+  "options": {},
+  "attributes": {
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "aqua",
+        "red",
+        "pink",
+        "purple",
+        "yellow",
+        "royal-blue",
+        "bright-green",
+        "dark-green",
+        "light-grey",
+        "ink",
+        "bg",
+        "neutral-0",
+        "neutral-300",
+        "neutral-1000"
+      ],
+      "required": true
+    },
+    "objectPosition": {
+      "type": "string"
+    }
+  }
+}

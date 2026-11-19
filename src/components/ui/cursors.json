@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_cursorss",
+  "info": {
+    "displayName": "Cursors",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "play": {
+      "type": "string",
+      "required": true
+    },
+    "close": {
+      "type": "string",
+      "required": true
+    },
+    "listen": {
+      "type": "string",
+      "required": true
+    },
+    "clickMe": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

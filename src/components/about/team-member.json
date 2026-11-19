@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_team_members",
+  "info": {
+    "displayName": "Team Member",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "person": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::person.person"
+    },
+    "row": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

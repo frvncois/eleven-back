@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "defaultTitle": {
+      "type": "string",
+      "required": true
+    },
+    "titleTemplate": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "locale": {
+      "type": "string",
+      "required": true
+    },
+    "themeColor": {
+      "type": "string",
+      "required": true
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ogImageAlt": {
+      "type": "string"
+    },
+    "twitterImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "twitterImageAlt": {
+      "type": "string"
+    }
+  }
+}

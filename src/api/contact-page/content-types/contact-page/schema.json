@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page",
+    "description": "The layout places exactly two people and exactly two reps in fixed columns."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "people": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.person-contact",
+      "min": 2,
+      "max": 2
+    },
+    "studio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.studio",
+      "required": true
+    },
+    "repsLabel": {
+      "type": "string",
+      "required": true
+    },
+    "reps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.person-contact",
+      "min": 2,
+      "max": 2
+    }
+  }
+}

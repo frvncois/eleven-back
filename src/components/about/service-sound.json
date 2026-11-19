@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_service_sounds",
+  "info": {
+    "displayName": "Service sound",
+    "icon": "music"
+  },
+  "options": {},
+  "attributes": {
+    "word": {
+      "type": "string",
+      "required": true
+    },
+    "files": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "audios",
+        "files"
+      ]
+    }
+  }
+}

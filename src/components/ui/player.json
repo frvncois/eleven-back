@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_players",
+  "info": {
+    "displayName": "Player",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "seek": {
+      "type": "string",
+      "required": true
+    },
+    "nextFilm": {
+      "type": "string",
+      "required": true
+    },
+    "play": {
+      "type": "string",
+      "required": true
+    },
+    "pause": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

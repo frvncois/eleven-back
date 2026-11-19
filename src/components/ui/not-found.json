@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ui_not_founds",
+  "info": {
+    "displayName": "Not Found",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

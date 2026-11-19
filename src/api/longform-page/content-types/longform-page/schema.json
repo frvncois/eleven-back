@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "longform_pages",
+  "info": {
+    "singularName": "longform-page",
+    "pluralName": "longform-pages",
+    "displayName": "Longform Page",
+    "description": "A curated, ordered 10 of the 18 longform projects."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "films": {
+      "type": "component",
+      "repeatable": true,
+      "component": "longform.film"
+    }
+  }
+}

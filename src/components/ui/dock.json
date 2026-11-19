@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ui_docks",
+  "info": {
+    "displayName": "Dock",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "menu": {
+      "type": "string",
+      "required": true
+    },
+    "close": {
+      "type": "string",
+      "required": true
+    },
+    "sound": {
+      "type": "string",
+      "required": true
+    },
+    "on": {
+      "type": "string",
+      "required": true
+    },
+    "off": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

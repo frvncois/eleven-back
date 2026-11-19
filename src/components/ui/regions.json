@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_ui_regionss",
+  "info": {
+    "displayName": "Regions",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "main": {
+      "type": "string",
+      "required": true
+    },
+    "projects": {
+      "type": "string",
+      "required": true
+    },
+    "films": {
+      "type": "string",
+      "required": true
+    },
+    "mixers": {
+      "type": "string",
+      "required": true
+    },
+    "closeMenu": {
+      "type": "string",
+      "required": true
+    },
+    "homeAria": {
+      "type": "string",
+      "required": true
+    },
+    "homeGateAria": {
+      "type": "string",
+      "required": true
+    },
+    "easterEgg": {
+      "type": "string",
+      "required": true
+    },
+    "archiveDrag": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

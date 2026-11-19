@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_site_player_labelss",
+  "info": {
+    "displayName": "Player Labels",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "play": {
+      "type": "string",
+      "required": true
+    },
+    "pause": {
+      "type": "string",
+      "required": true
+    },
+    "close": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

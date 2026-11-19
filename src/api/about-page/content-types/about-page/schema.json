@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": "Story, services, rooms, team and the contact CTA."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "storyIntro": {
+      "type": "text",
+      "required": true
+    },
+    "storyParagraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.story-paragraph"
+    },
+    "sticker": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sized-image",
+      "required": true
+    },
+    "globe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.globe",
+      "required": true
+    },
+    "servicesLabel": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.service"
+    },
+    "teamLabel": {
+      "type": "string",
+      "required": true
+    },
+    "teamMembers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.team-member"
+    },
+    "rooms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.room"
+    },
+    "contactCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.contact-cta",
+      "required": true
+    }
+  }
+}

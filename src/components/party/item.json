@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_party_items",
+  "info": {
+    "displayName": "Item",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bg": {
+      "type": "enumeration",
+      "enum": [
+        "aqua",
+        "red",
+        "pink",
+        "purple",
+        "yellow",
+        "royal-blue",
+        "bright-green",
+        "dark-green",
+        "light-grey",
+        "ink",
+        "bg",
+        "neutral-0",
+        "neutral-300",
+        "neutral-1000"
+      ],
+      "required": true
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos",
+        "files"
+      ]
+    },
+    "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "audios",
+        "files"
+      ]
+    }
+  }
+}

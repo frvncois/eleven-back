@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Nav, footer, player labels and default SEO."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nav-item",
+      "min": 1
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.footer",
+      "required": true
+    },
+    "player": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.player-labels",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    }
+  }
+}

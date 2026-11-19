@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": "Every film: 48 spots (credited to a mixer) and 18 longform."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "short": {
+      "type": "string",
+      "required": true
+    },
+    "client": {
+      "type": "string",
+      "required": true
+    },
+    "agency": {
+      "type": "string"
+    },
+    "director": {
+      "type": "string"
+    },
+    "production": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "kind": {
+      "type": "enumeration",
+      "enum": [
+        "spot",
+        "longform"
+      ],
+      "required": true
+    },
+    "mixer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::person.person",
+      "inversedBy": "projects"
+    },
+    "duration": {
+      "type": "integer",
+      "required": true
+    },
+    "previewStart": {
+      "type": "integer"
+    },
+    "vimeo": {
+      "type": "string",
+      "required": true
+    },
+    "vimeoId": {
+      "type": "string",
+      "required": true
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "onLanding": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "archiveTile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work.archive-tile",
+      "required": true
+    }
+  }
+}

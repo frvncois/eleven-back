@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_viewss",
+  "info": {
+    "displayName": "Views",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "string",
+      "required": true
+    },
+    "grid": {
+      "type": "string",
+      "required": true
+    },
+    "showAsTemplate": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
