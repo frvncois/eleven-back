@@ -48,6 +48,22 @@
         "neutral-1000"
       ],
       "required": true
+    },
+    "hoverSound": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "audios",
+        "files"
+      ]
+    },
+    "transitionSound": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "audios",
+        "files"
+      ]
     }
   }
 }

@@ -329,6 +329,7 @@ export interface SharedNavItem extends Struct.ComponentSchema {
       ]
     > &
       Schema.Attribute.Required;
+    hoverSound: Schema.Attribute.Media<'audios' | 'files', true>;
     href: Schema.Attribute.String & Schema.Attribute.Required;
     key: Schema.Attribute.Enumeration<
       ['mixers', 'archive', 'longform', 'about', 'contact']
@@ -336,6 +337,7 @@ export interface SharedNavItem extends Struct.ComponentSchema {
       Schema.Attribute.Required;
     label: Schema.Attribute.String & Schema.Attribute.Required;
     match: Schema.Attribute.String & Schema.Attribute.Required;
+    transitionSound: Schema.Attribute.Media<'audios' | 'files', true>;
   };
 }
 

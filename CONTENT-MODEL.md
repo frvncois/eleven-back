@@ -91,7 +91,20 @@ coordinates stay in `MixersBanner.tsx` (`NAMES` / `ICONS`), beside the wedge geo
 ### 2.1 `Site Settings`
 From `site.json` (nav, footer, player) + `app/layout.tsx` metadata.
 
-- `nav` — repeatable `shared.nav-item` ×5: `key` enum, `label`, `href`, `match`, `color` enum
+- `nav` — repeatable `shared.nav-item` ×5: `key` enum, `label`, `href`, `match`, `color` enum,
+  plus this page's own two sounds, each media (audio, many):
+  — `hoverSound`: hovering this link in the nav (`NavBar.tsx`; on the phone, opening the Mixers
+    drawer)
+  — `transitionSound`: the sweep that *lands on* this page, so clicking through to Archive can
+    sound different from clicking through to About. Matched the way the sweep picks its colour —
+    the link whose `match` is the longest prefix of the destination (`PageTransition.tsx`,
+    `lib/sound.ts` `sweepSound`)
+  Several files in one field are *takes*: one at random per play, never the same twice in a row. An
+  empty field plays the kit bundled in `public/sounds` (`lib/sound.ts` `CUES`), so the site always
+  has sound even before any of this is filled.
+  The other cues — the button click, menu open, the gate count, the About plucks, the Longform
+  notes, the Archive/Mixers scramble — stay in `lib/sound.ts`. The click is global (every button,
+  `ClickSound.tsx`), so there is nothing to split it by.
 - `footer` — `site.footer`:
   `copyright` ("©2026 Eleven") · `legal` repeatable `shared.link` ×1 · `creditsLabel` ("Credits") ·
   `credits` repeatable `shared.credit` ×2 · `social` repeatable `shared.social-link` ×2
@@ -199,7 +212,7 @@ From `site.json` (nav, footer, player) + `app/layout.tsx` metadata.
 |---|---|---|
 | `shared.link` | `label`, `href` | footer legal |
 | `shared.social-link` | `platform` enum, `label`, `href` | footer social |
-| `shared.nav-item` | `key` enum, `label`, `href`, `match`, `color` enum | site nav |
+| `shared.nav-item` | `key` enum, `label`, `href`, `match`, `color` enum, `hoverSound`, `transitionSound` media | site nav |
 | `shared.credit` | `name`, `role`, `href` | footer credits |
 | `shared.person-contact` | `name`, `role`, `email` (string), `phone` | contact people + reps |
 | `shared.note` | `n`, `text`, `photo` | about story ×2 + globe |
